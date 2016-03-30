@@ -1,0 +1,26 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>      
+   <constant name="struts.devMode" value="true" />
+   <constant name="struts.action.excludePattern" value=".*/static/.*" />
+   <package name="Veterinaria_LT" extends="struts-default,json-default">
+   
+       <action name="index" class="org.apache.struts.demoapp_struts.action.JobDemoAction" method="javaplanner">
+			<result name="success">/horarios/article.jsp</result>
+			<result name="error" type="redirectAction">login.action</result>
+		</action>
+		<action name="events" class="org.apache.struts.demoapp_struts.action.JobDemoAction" method="events">
+			<result name="success">/horarios/data.jsp</result>
+		</action>
+		<action name="" class="org.apache.struts.demoapp_struts.action.JobDemoAction" method="javaplanner">
+			<result name="success">/horarios/article.jsp</result>
+			<result name="error" type="redirectAction">login.action</result>
+		</action>
+		<action name="login" class="org.apache.struts.demoapp_struts.action.JobDemoAction" method="login">
+			<result name="success">/login.jsp</result>
+			<result name="login" type="redirectAction">index.action</result>
+			<result name="error">login.jsp</result>
+		</action>
+   </package>   	
+</struts>

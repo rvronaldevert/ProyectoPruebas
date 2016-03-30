@@ -1,0 +1,686 @@
+
+Name: cmxform Styles
+
+***********************************/
+form.cmxform {
+	width: 370px;
+	font-size: 1.0em;
+	color: #333;
+}
+
+form.cmxform legend {
+	padding-left: 0;
+}
+
+form.cmxform legend,form.cmxform label {
+	color: #333;
+}
+
+form.cmxform fieldset {
+	border: none;
+	border-top: 1px solid #C9DCA6;
+	background: url(../images/cmxform-fieldset.gif) left bottom repeat-x;
+	background-color: #F8FDEF;
+}
+
+form.cmxform fieldset fieldset {
+	background: none;
+}
+
+form.cmxform fieldset p,form.cmxform fieldset fieldset {
+	padding: 5px 10px 7px;
+	background: url(../images/cmxform-divider.gif) left bottom repeat-x;
+}
+
+form.cmxform label.error,label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+
+div.error {
+	display: none;
+}
+
+input {
+	border: 1px solid black;
+}
+
+input.checkbox {
+	border: none
+}
+
+input:focus {
+	border: 1px dotted black;
+}
+
+input.error {
+	border: 1px dotted red;
+}
+
+form.cmxform .gray * {
+	color: gray;
+}
+
+.tabla {
+	clear: none;
+	overflow: auto;
+}
+
+.fila {
+	clear: both;
+}
+
+.col_titulo {
+	float: left;
+	padding: 5px;
+}
+
+.col {
+	float: left;
+	padding: 5px;
+}
+
+.col_center {
+	float: inherit;
+	padding: 5px;
+} 
+  
+/* los tabs principales */
+ 
+#idPrecarga {
+	width: 100%; 
+	height: 100%; 
+	top: 0px; 
+	left: 0px; 
+	position: absolute;
+    background-color: white;  
+	display: block; 
+	visibility: visible;
+	text-align: center;
+	vertical-align: middle;
+}
+#idCargadoSistema {
+	width: 1px; 
+	height: 1px;
+	background-color: white; 
+	visibility: hidden;
+	position: absolute;
+	padding-left: 144px;
+}
+#idProvias {	position: absolute;	top: 118px;	left: -206px;	width: 1024px;	height: 720px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idProvias1 {	position: absolute;	top: 118px;	left: -206px;	width: 1024px;	height: 795px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+#tabProviasRegistroSolicitud {	 position: absolute;	top: 45px;	left: 10px;	width: 930px;	height: 600px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabProviasSolicitudIngresadas1 { position: absolute;	top: 49px;	left: 10px;	width: 980px;	height: 445px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabProviasSolicitudIngresadas3 { position: absolute;	top: 70px;	left: 20px;	width: 250px;	height: 300px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#tabProviasRegistroSolicitudP {	 position: absolute;	top: 49px;	left: 40px;	width: 980px;	height: 600px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+#tabProviasRegistroSolicitud4{ position: absolute;	top: 174px;	left: 200px;	width: 250px;	height: 300px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabProviasSolicitudIngresadas { position: absolute;	top: 49px;	left: 124px;	width: 980px;	height: 445px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabProviasSolicitudIngresadasEvaluador { position: absolute;	top: 40px;	left: 10px;	width: 980px;	height: 445px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabProviasSolicitudIngresadasAprobador{ position: absolute;	top: 60px;	left: 10px;	width: 980px;	height: 445px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#tabProviasSolicitudIngresadasNew { position: absolute;	top: 49px;	left: 100px;	width: 980px;	height: 445px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+#tabProviasRptEmi { position: absolute;	top: 45px;	left: 10px;	width: 980px;	height: 445px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#ta{ position: absolute;	top: 45px;	left: 180px;	width: 980px;	height: 40px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#tabProviasBonificacion {	  position: absolute;top: 45px;	left: 10px;	width: 980px;	height: 645px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tablaPestanasSolicitud {	  position: absolute;	top: 132px;	left: 16px;	width: 970px;	height: 500px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tablaPestanasSolicitud48a60 {	  position: absolute;	top: 135px;	left: 16px;	width: 970px;	height: 580px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#centrarBotonera {	  position: absolute;	top: 644px;	left: 5px;	width: 970px;	height: 25px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#centrarBotonera1 {	  position: absolute;	top: 725px;	left: 5px;	width: 970px;	height: 25px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idCentrarBotoneraResult {	  position: absolute;	top: 2px;	left: 300px;	width: 660px;	height:45px;}
+#tabRequisitos {	  position: absolute;	top: 60px;	left: 10px;	width: 950px;	height: 300px;	padding: 5px;S	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabConductor  {   position: absolute;	top: 45px;	left: 10px;	width: 950px;	height: 380px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#tabMercancia {  position: absolute;	top: 50px;	left: 5px;	width: 950px;	height: 380px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+ 
+#resultadoAgrupadoDeListaSolicitud{position: absolute; top:183px;	left: 12px;	width: 950px;	height: 436px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#resultadoAgrupadoDeListaSolicitud2{position: absolute;	top:232px;	left: 12px;	width: 950px;	height: 405px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#resultadoDetalleGrillaSolicitud{position: absolute; 	top:300px;	left: 4px;	width: 940px;	height: 120px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+#resultadoDetalleGrillaSolicitud2{position: absolute; top:528px;	left: 14px;	width: 940px;/*	height: 140px;	*/padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+#resultadoDetalleGrillaSolicitud4{position: absolute;	top:446px;	left: 32px;	width: 950px;/*	height: 140px;	*/padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+#idDialogOrigen  {  font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idDialogDestino  {  font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idDialogEjes  { font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idDialogOrigenFiltro  {  font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idDialogDestinoFiltro  {  font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idDialogValidacionSolicitud  {  font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+/* cabecera */
+#CabeceraDiv{position: absolute;top:3px; left:52px;}
+#resultadoDeSolicitudCabecera{position: absolute;  top:2px; left:5px; width: 550px; height: 20px;}
+#idVerPrevisualizacion{ position: absolute;top: 2px;	left: 300px;	width:200px;	height: 23px;	}
+#cabecera01{position: absolute;top:24px; left:5px; width: 150px; height: 15px;}
+#idLogOut{position: absolute;top:20px; left:720px; width: 150px; height: 25px;}
+#idLogOut2{position: absolute;top:87px; left:719px; width: 150px; height: 25px;}
+#idRetuSelecSoli{position: absolute;top:87px; left:-201px; width: 150px; height: 25px;}
+#idSolicitudMtc{position: absolute;top:25px; left:150px; width: 220px; height: 15px;}
+#cabecera03{position: absolute;top:25px; left:499px; width: 50px; height: 15px;}
+#idSolicitudRuc{position: absolute;top:25px; left:672px; width: 200px; height: 15px;}
+
+#cabecera05{position: absolute;top:50px; left:5px; width: 150px; height: 15px;}
+#idSolicitudEmpresa{position: absolute;top:50px; left:150px; width: 320px; height: 15px;}
+#cabecera07{position: absolute;top:50px; left:500px; width: 250px; height: 15px;}
+#idSolicitudRepresentante{position: absolute;top:50px; left:672px; width: 310px; height: 15px;}
+
+#cabecera09{position: absolute;top:106px; left:5px; width:600px; height: 15px;;}
+#idSolicitudDomicilio{position: absolute;top:104px; left:150px; width: 450px; height: 15px;}
+#cabecera11{position: absolute;top:77px; left:499px; width: 100px; height: 15px;}
+#idSolicitudTelefono{position: absolute;top:75px; left:672px; width: 150px; height: 15px;}
+
+#cabecera13{position: absolute;top:77px; left:5px; width: 150px; height: 15px;}
+#idSolicitudCorreo{position: absolute;top:75px; left:150px; width: 250px; height: 15px;}
+
+
+/* rutas */
+
+
+
+#idLabelRutaTitulo{position: absolute;top:160px; left:15px; width: 550px; height: 15px;}
+#idLabelRutaTitulo48a60{position: absolute;top:4px; left:2px; width: 550px; height: 15px;}
+#idLabelRuta{position: absolute;top:190px; left:15px; width: 80px; height: 15px;}
+#idComboRuta{position: absolute;top:190px; left:67px; width:500px; height: 20px;}
+#idtxtRutaCh{position: absolute;top:190px; left:67px; width:640px; height: 20px;}
+
+#idCboDepartamento{position: absolute;top:190px; left:150px; width:150px; height: 20px;visibility: hidden;}
+#idCboDepartamentoDialoges{position: absolute;top:25px; left:10px; width:150px; height: 20px;}
+#idComboRutaCabeceDialog{position: absolute;top:25px; left:190px; width:310px; height: 20px; }
+#idComboRutaVariante{position: absolute;top:190px; left:440px; width:280px; height: 20px;}
+#idRutaAgregar{position: absolute;top:190px; left:749px; width: 90px; height: 25px; }
+#idRutaAgregarChanged{position: absolute;top:350px; left:680px; width: 110px; height: 25px; }
+#idRutaAgregar48a60{position: absolute;top:160px; left:660px; width: 130px; height: 25px; }
+#idBtnLimpiar{position: absolute;top:190px; left:862px; width: 90px; height: 25px; }
+
+#idLabelOrigen{position: absolute;top:63px; left:15px; width: 60px; height: 15px; }
+#idOrigenSubmit{position: absolute;top:57px; left:70px; width: 140px; height: 25px; }
+#resultOrigen{ position: absolute;top:63px; left:220px; width: 480px; height: 25px; }
+#idUbigeoOrigen{position: absolute;top:0px; left:0px; width: 70px; height: 15px; }
+#idLabelDireccionOrigen{position: absolute;top:65px; left:306px; width: 80px; height: 20px; }
+#idDireccionOrigen{position: absolute;top:63px; left:370px; width: 290px; height: 15px; }
+#idHoraSalida{position: absolute;top:67px; left:677px; width: 100px; height: 15px; }
+#idFechaOrigen{position: absolute;top:63px; left:770px; width: 100px; height: 15px; }
+#idHoraOrigen{position: absolute; top:63px; left:880px; width: 100px; height: 15px; }
+#idHoraReferencial{position: absolute;top:42px; color:blue;left:870px; width: 200px; height: 15px; }
+#idHoraReferencial2{position: absolute;top:94px; color:blue;left:870px; width: 200px; height: 15px; }
+#idLabelDestino{position: absolute;top:113px; left:15px; width: 60px; height: 15px; }
+#idDestinoSubmit{position: absolute;top:106px; left:70px; width: 140px; height: 25px; }
+#resultDestino{ position: absolute;top:113px; left:220px; width: 480px; height: 25px; }
+#idUbigeoDestino{position: absolute;top:0px; left:0px; width: 70px; height: 15px; }
+#idLabelDireccionDestino{position: absolute;top:115px; left:306px; width: 80px; height: 20px; }
+#idDireccionDestino{position: absolute;top:113px; left:370px; width: 290px; height: 15px; }
+#idHoraLlegada{position: absolute;top:117px; left:677px; width: 100px; height: 15px; }
+#idFechaDestino{position: absolute;top:113px; left:770px; width: 100px; height: 15px; }
+#idHoraDestino{position: absolute;top:113px; left:880px; width: 100px; height: 15px; }
+
+
+#resultadoDeRutas {	 position: absolute;	top: 230px;	left: 5px;	width: 960px;	height: 260px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+ #resultadoDeRutasChanged {	 position: absolute;	top: 390px;	left: 5px;	width: 960px;	height: 180px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+ 
+  #resultadoItinRutas {	 position: absolute;	top: 450px;	left: 5px;	width: 960px;	height: 120px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+ 
+  #idve{ position: absolute;top: 6px;	left: 285px;	width:200px;	height: 20px;	}
+  
+
+/* vehiculo */
+
+#idVehiculoCabecera { position: absolute;	top: 100px;	left: 5px;	width: 700px;	height: 30px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#resultadoDeVehiculoCabecera {  position: absolute;	top: 135px;	left: 5px;	width: 960px;	height: 160px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#resultadoDeVehiculo { position: absolute;	top: 310px;	left: 5px;	width: 960px;	height: 150px;	padding: 5px;	font-size: 13px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idVehiculoTipo{position: absolute;	top: 40px;	left: 5px;	width: 700px;	height: 50px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#idLabelTipoVehiculo{position: absolute;top:8px; left:3px; width: 120px; height: 20px; }
+#idLabeTipoVehiculos{position: absolute;top:8px; left:3px; width: 120px; height: 20px; }
+
+#idVehiculoTipoVehiculo{position: absolute;top:8px; left:150px; width: 120px; height: 20px; }
+#idVehiculoTipoVehiculo2{position: absolute;top:8px; left:280px; width: 120px; height: 20px; }
+#idTipoVehiText{position: absolute;top:8px; left:150px; width: 120px; height: 20px; }
+
+#idLabelTipo{  position: absolute;top:40px; left:6px; width: 200px; height: 15px; }
+#idVehiculoTipoIdentificador{ position: absolute;top:40px; left:150px; width: 120px; height: 20px; }
+#idVehiculoNumeroIdentificacion{position: absolute;top:40px; left:410px; width: 80px; height: 15px; }
+#idLabelNroIdentificador{position: absolute;top:40px; left:295px; width: 160px; height: 15px; }
+#idVehiculoBuscar{position: absolute;top:40px; left:520px; width: 90px; height: 20px; }
+#idLabelConfiguracion{position: absolute;top:10px; left:475px; width: 90px; height: 15px; }
+#idComboConfiguracion{position: absolute;top:10px; left:605px; width: 100px; height: 20px; }
+
+#resultadoDeVehiculoConfiguracion{ position: absolute;top:5px; left:720px; width: 220px; height: 120px; }
+
+
+#idLabelDescr{ position: absolute;top:8px; left:6px; width: 70px; height: 15px; }
+#idVehiculoDescripcion{ position: absolute;top:8px; left:85px; width: 160px; height: 15px; }
+#idLabelMarca{ position: absolute;top:8px; left:260px; width: 100px; height: 15px; }
+#idVehiculoMarca{ position: absolute;top:8px; left:370px; width: 80px; height: 15px; }
+#idLabelModelo{ position: absolute;top:8px; left:475px; width: 100px; height: 15px; }
+#idVehiculoModelo{ position: absolute;top:8px; left:605px; width: 100px; height: 15px; }
+
+
+
+#idLabelLargo{ position: absolute;top:35px; left:6px; width: 70px; height: 15px; }
+#idVehiculoLargo{ position: absolute;top:35px; left:85px; width: 80px; height: 15px; }
+#idLabelAncho{ position: absolute;top:35px; left:260px; width: 100px; height: 15px; }
+#idVehiculoAncho{ position: absolute;top:35px; left:370px; width: 80px; height: 15px; }
+#idLabelAlto{ position: absolute;top:35px; left:475px; width: 100px; height: 15px; } 
+#idVehiculoAlto{ position: absolute;top:35px; left:605px; width:100px; height: 15px; }
+  
+
+#idLabelEjes{ position: absolute;top:10px; left:6px; width: 30px; height: 15px; }
+#idLabelEjer{ position: absolute;top:10px; left:6px; width: 30px; height: 15px; }
+#idVehiculoNumeroEjes{ position: absolute;top:10px; left:45px; width: 100px; height: 20px; }
+#idEjesSubmit		 { position: absolute;top:10px; left:175px; width: 75px; height: 25px; }
+#idLabelNeumaticos{ position: absolute;top:10px; left:260px; width: 100px; height: 15px; }
+#idVehiculoNeumaticos{ position: absolute;top:10px; left:370px; width: 80px; height: 15px; }
+#idLabelTara{ position: absolute;top:65px; left:475px; width: 150px; height: 15px; }
+#idVehiculoTara{ position: absolute;top:65px; left:605px; width: 100px; height: 15px; }
+
+#idLabelPesoSeco{position: absolute;top:95px; left:6px; width: 150px; height: 15px;}
+#idVehiculoaPesoSeco{position: absolute;top:95px; left:150px; width: 70px; height: 15px;}
+
+#idLabelPermisoBonificacion{ position: absolute;top:95px; left:350px; width: 150px; height: 15px; }
+#idLabelResolucion{ position: absolute;top:95px; left:350px; width: 150px; height: 15px; }
+#idVehiculoResolucion{ position: absolute;top:95px; left:505px; width: 120px; height: 15px; }
+#idVehiculoValidar{ position: absolute;top:95px; left:600px; width: 80px; height: 25px; }
+#idLabelFecVen{ position: absolute;top:95px; left:690px; width: 120px; height: 15px; }
+#idVehiculoFechaVencimiento{ position: absolute;top:95px; left:800px; width: 100px; height: 15px; }
+
+#idLabelCaraceterVehiculo{ position: absolute;top:65px; left:6px; width: 150px; height: 25px; }
+#idEsVehiculoCaracter{ position: absolute;top:65px; left:170px; width: 300px; height: 25px; border: 0px}
+#idVehiculoVer{ position: absolute;top:130px; left:470px; width: 60px; height: 25px; }
+#idVehiculoAgregar{ position: absolute;top:130px; left:475px; width: 90px; height: 25px; }
+#idBotonLimpiar { position: absolute;top:267px; left:653px; width: 120px; height: 25px; }
+
+
+/* mercancia */
+#idMercanciaCabecera{ position: absolute; left: 10px;	width: 940px;	height:160px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#resultadoDeMercancia {	 position: absolute;	top: 190px;	left: 10px;	width: 940px;	height: 180px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idLabelTipoMercancia { position: absolute;top:10px; left:5px; width: 150px; height: 15px;}
+#idMercanciaTipo{ position: absolute;top:10px; left:130px; width: 250px; height: 20px;}
+#idLabelDescripcion{ position: absolute;top:10px; left:400px; width: 150px; height: 15px;}
+#idMercanciaDescripcion { position: absolute;top:10px; left:500px; width: 440px; height: 15px;}
+#idLabelLargoMercancia { position: absolute;top:50px; left:5px; width: 100px; height: 15px;}
+#idMercanciaLargo { position: absolute;top:50px; left:110px; width:50px; height: 15px;}
+#idLabelAnchoMercancia { position: absolute;top:50px; left:200px; width: 100px; height: 15px;}
+#idMercanciaAncho{ position: absolute;top:50px; left:310px; width: 50px; height: 15px;}
+#idLabelAltoMercancia{ position: absolute;top:50px; left:410px; width: 100px; height: 15px;}
+#idMercanciaAlto{ position: absolute;top:50px; left:510px; width: 50px; height: 15px;}
+#idLabelPesoMercancia{ position: absolute;top:50px; left:610px; width: 100px; height: 15px;}
+#idMercanciaPeso{ position: absolute;top:50px; left:710px; width: 50px; height: 15px;}
+
+#idMercanciaAgregar{ position: absolute;top:130px; left:25px; width: 150px; height: 25px;}
+
+#idLabelCaracter{ position: absolute;top:100px; left:5px; width: 450px; height: 15px;}
+#idEsMercanciaCaracter{ position: absolute;top:100px; left:180px; width: 450px; height: 25px;border: 0px}
+#idEsMercanciaExedenteBaja{ position: absolute;top:100px; left:490px; width:350px; height: 25px;border: 0px}
+#idLabelCuanto{ position: absolute;top:100px; left:810px; width: 150px; height: 15px;}
+#idMercanciaExedenteBaja{ position: absolute;top:100px; left:880px; width: 60px; height: 15px;}
+
+#idEsMercanciaExedenteTracto{ position: absolute;top:130px; left:490px; width: 350px; height: 15px;}
+
+
+#idLabelCuanto2{ position: absolute;top:130px; left:810px; width: 740px; height: 15px;}
+#idMercanciaExedenteTracto{ position: absolute;top:130px; left:880px; width: 60px; height: 15px;}
+#idEsIntegramentePosterior3{  position: absolute;top:75px; left:490px; width: 450px; height: 15px;}
+
+/* requisitos */
+#idLabelNombreBanco{ position: absolute;top:15px; left:30px; width: 150px; height: 15px;}
+#idRequisitosBanco { position: absolute;top:15px; left:190px; width: 185px; height: 20px;}
+#idLabelNroOperaciones{ position: absolute;top:50px; left:30px; width: 150px; height: 15px;}
+#idRequisitoOperaciones{ position: absolute;top:50px; left:190px; width: 180px; height: 15px;}
+#idLabelFechaOperaciones{ position: absolute;top:85px; left:30px; width: 150px; height: 15px;}
+#idRequisitoFechaOperacion{ position: absolute;top:85px; left:190px; width: 180px; height: 15px;}
+#idLabelAdjCompro{ position: absolute;top:120px; left:30px; width: 150px; height: 15px;}
+#idFileComprbn{ position: absolute;top:120px; left:190px; width: 360px; height: 20px;}
+
+
+
+/* conductor */
+#idDivConductorCabecera {  position: absolute; left: 10px;	width: 940px;	height:60px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#resultadoDeConductorCabecera { 	 position: absolute;	top: 100px;	left: 10px;	width: 940px;	height: 100px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#resultadoDeConductor{    position: absolute;	top: 210px;	left: 10px;	width: 940px;	height: 200px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idSolicitanteCabecera{ 	 position: absolute;	top: 340px;	left: 10px;	width: 940px;	height: 45px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#idLabelNroLicencia{ position: absolute;top:45px; left:5px; width: 150px; height: 15px;}
+#idConductorLicencia  { position: absolute;top:45px; left:140px; width: 160px; height: 15px;}
+#idBuscaConductor { position: absolute;top:19px; left:320px; width: 100px; height: 25px;}
+#idUrlBuscaConductor{ position: absolute;top:19px; left:320px; width: 100px; height: 25px;}
+#idMensajeOpcional{ position: absolute;top:1px;color:blue; left:5px; width: 300px; height: 15px;}
+
+#idMensajeBuscaConductor{position: absolute; left:5px; top:0px; width: 450px; height: 8px;}
+#idLabelData {position: absolute; top:20px; left:5px; width: 450px; height: 15px;}
+#idLabelNombre{ position: absolute;top:75px; left:5px; width: 150px; height: 15px;}
+#idConductorNombres { position: absolute;top:75px; left:65px; width: 170px; height: 15px;}
+#idLabelApellido{ position: absolute;top:75px; left:250px; width: 150px; height: 15px;}
+#idConductorApellidos{ position: absolute;top:75px; left:310px; width: 170px; height: 15px;}
+#idLabelTipoConductor{ position: absolute;top:75px; left:502px; width: 90px; height: 15px;}
+#idConductorTipo{ position: absolute;top:75px; left:570px; width: 90px; height: 15px;}
+#idLabelEstado{ position: absolute;top:45px; left:630px; width: 150px; height: 15px;}
+#idConductorEstado{ position: absolute;top:45px; left:680px; width: 140px; height: 15px;}
+#idAgregarConductor{ position: absolute;top:75px; left:840px; width: 100px; height: 25px;}
+#idUrlAgregarConductor{ position: absolute;top:75px; left:840px; width: 100px; height: 25px;}
+
+#idLabelDatosSolicitante {position: absolute;left:5px; width: 450px; height: 15px;}
+#idLabelNroDni {position: absolute;top:40px; left:5px; width: 150px; height: 15px;}
+#idConductorSolicitanteDni{ position: absolute;top:40px; left:65px; width: 90px; height: 15px;}
+#idLabelNombres{ position: absolute;top:40px; left:178px; width: 150px; height: 15px;}
+#idConductorSolicitanteNombres{ position: absolute;top:40px; left:245px; width: 150px; height: 15px;}
+#idLabelApellidos{ position: absolute;top:40px; left:418px; width: 130px; height: 15px;}
+#idConductorSolicitanteApellidos{ position: absolute;top:40px; left:485px; width: 150px; height: 15px;}
+#idLabelEmailDeclarante{ position: absolute;top:60px; left:650px; width: 130px; height: 15px;}
+#idConductorSolicitanteEmails{ position: absolute;top:60px; left:700px; width: 150px; height: 15px;}
+#idMensaje{  position: absolute;	top: 160px;	left: 5px;	width: 940px;	height: 50px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idMensaje2{  position: absolute;	top: 150px;	left: 200px;	width: 475px;	height: 50px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+
+/*Tab Declarante*/
+#idDivCabeceraDeclarantes {position: absolute;left:20px; width: 900px; height: 160px;}
+#idLabelNroDniDeclarants {position: absolute;top:20px; left:5px; width: 150px; height: 15px;}
+#idConductorSolicitanteDniDeclarante{ position: absolute;top:20px; left:150px; width:170px; height: 15px;}
+#idLabelNombreDeclarants {position: absolute;top:50px; left:5px; width: 150px; height: 15px;}
+#idNombreSolicitanteDEclarante{ position: absolute;top:50px; left:150px; width:400px; height: 15px;}
+#idLabelApellidosDeclarants {position: absolute;top:80px; left:5px; width: 150px; height: 15px;}
+#idApellidoaolicitanteDEclarante{ position: absolute;top:80px; left:150px; width:400px; height: 15px;}
+#idLabelEmailsDeclarants {position: absolute;top:110px; left:5px; width: 150px; height: 15px;}
+#idEmailslicitanteDEclarante{ position: absolute;top:110px; left:150px; width:400px; height: 15px;}
+#idBtnDeclaranterCondusctor{ position: absolute;top:140px; left:200px; width:100px; height: 25px;}
+
+#idDivResultadoDeclarantes{ position: absolute;top:240px; left:30px; width:910px; height: 130px;}
+/*fin*/
+
+/*Tab Conductor*/
+#idDivCabeceraConductors{ position: absolute;top:20px; left:10px; width:940px; height: 170px;}
+#idLabelTituloOpcionales{ position: absolute;top:5px; left:5px; width:300px; height: 15px; color: blue;}
+#idLabelNroLicenciaCondusctor{ position: absolute;top:40px; left:5px; width:150px; height: 15px;}
+#idTxtNroLicenciaCondusctor{ position: absolute;top:40px; left:140px; width:150px; height: 15px;}
+#idLabelNombreCondusctor{ position: absolute;top:70px; left:5px; width:150px; height: 15px;}
+#idTxtNombreCondusctor{ position: absolute;top:70px; left:140px; width:400px; height: 15px;}
+#idLabelApellidosCondusctor{ position: absolute;top:100px; left:5px; width:150px; height: 15px;}
+#idTxtApellidosCondusctor{ position: absolute;top:100px; left:140px; width:400px; height: 15px;}
+#idBtnEnviarCondusctor{ position: absolute;top:140px; left:200px; width:100px; height: 25px;}
+
+/*fin*/
+
+/* Observaciones */
+#idDivVehiculoEscolta{ position: absolute;top:130px; left:470px; width: 60px; height: 25px; }
+#idDivConjutnoPorEjes{ position: absolute;top:130px; left:540px; width: 80px; height: 25px; }
+#idComponenteVehiculo{ position: absolute;top:130px; left:540px; width: 80px; height: 25px; }
+  
+/* Dialogo origen */
+#idLabelDepartamentoOrigen{ position: absolute;top:10px; left:10px; width: 90px; height: 15px;}
+#idComboDepartamentoOrigen{ position: absolute;top:10px; left:110px; width: 180px; height: 20px;}
+#idLabelProvinciaOrigen{ position: absolute;top:35px; left:10px; width: 100px; height: 15px;}
+#idComboProvinciaOrigen{ position: absolute;top:35px; left:110px; width: 180px; height: 20px;}
+#idLabelDistritoOrigen{ position: absolute;top:60px; left:10px; width: 100px; height: 15px;}
+#idComboDistritoOrigen{ position: absolute;top:60px; left:110px; width: 180px; height: 20px;}
+#idSubmitUbigeoOrigen{ position: absolute;top:85px; left:80px; width: 130px; height: 25px;}
+
+
+/**dialogo olvido*/
+#idLabelCngDialog{ position: absolute;top:20px; left:10px; width: 105px; height: 15px;}
+#idTxtCngDialog{ position: absolute;top:20px; left:110px; width: 180px; height: 20px;}
+#idLabelRucDialog{ position: absolute;top:60px; left:10px; width: 100px; height: 15px;}
+#idTxtRucDialog{ position: absolute;top:60px; left:110px; width: 180px; height: 20px;}
+#idLabelMEnsajeDialog{ position: absolute;top:10px; left:10px; width: 300px; height: 15px;}
+#idSubmitUbigeoOrigen{ position: absolute;top:100px; left:110px; width: 100px; height: 30px;}
+#idSubmitOlivd{ position: absolute;top:65px; left:70px; width: 130px; height: 25px;}
+#idTxtLoginConDialog{ position: absolute;top:20px; left:110px; width: 180px; height: 20px;}
+
+/* Dialogo destino */
+#idLabelDepartamentoDestino{ position: absolute;top:10px; left:10px; width: 90px; height: 15px;}
+#idComboDepartamentoDestino{ position: absolute;top:10px; left:110px; width: 180px; height: 20px;}
+#idLabelProvinciaDestino{ position: absolute;top:35px; left:10px; width: 100px; height: 15px;}
+#idComboProvinciaDestino{ position: absolute;top:35px; left:110px; width: 180px; height: 20px;}
+#idLabelDistritoDestino{ position: absolute;top:60px; left:10px; width: 100px; height: 15px;}
+#idComboDistritoDestino{ position: absolute;top:60px; left:110px; width: 180px; height: 20px;}
+#idSubmitUbigeoDestino{ position: absolute;top:85px; left:80px; width: 130px; height: 25px;}
+
+
+
+/* Dialogo origen Filtro*/
+#idLabelDepartamentoOrigenFiltro{ position: absolute;top:10px; left:10px; width: 90px; height: 15px;}
+#idComboDepartamentoOrigenFiltro{ position: absolute;top:10px; left:110px; width: 180px; height: 20px;}
+#idLabelProvinciaOrigenFiltro{ position: absolute;top:35px; left:10px; width: 100px; height: 15px;}
+#idComboProvinciaOrigenFiltro{ position: absolute;top:35px; left:110px; width: 180px; height: 20px;}
+#idLabelDistritoOrigenFiltro{ position: absolute;top:60px; left:10px; width: 100px; height: 15px;}
+#idComboDistritoOrigenFiltro{ position: absolute;top:60px; left:110px; width: 180px; height: 20px;}
+#idSubmitUbigeoOrigenFiltro{ position: absolute;top:85px; left:80px; width: 130px; height: 25px;}
+
+/* Dialogo destino Filtro */
+#idLabelDepartamentoDestinoFiltro{ position: absolute;top:10px; left:10px; width: 90px; height: 15px;}
+#idComboDepartamentoDestinoFiltro{ position: absolute;top:10px; left:110px; width: 180px; height: 20px;}
+#idLabelProvinciaDestinoFiltro{ position: absolute;top:35px; left:10px; width: 100px; height: 15px;}
+#idComboProvinciaDestinoFiltro{ position: absolute;top:35px; left:110px; width: 180px; height: 20px;}
+#idLabelDistritoDestinoFiltro{ position: absolute;top:60px; left:10px; width: 100px; height: 15px;}
+#idComboDistritoDestinoFiltro{ position: absolute;top:60px; left:110px; width: 180px; height: 20px;}
+#idSubmitUbigeoDestinoFiltro{ position: absolute;top:85px; left:80px; width: 130px; height: 25px;}
+
+
+/* Observaciones */
+#tabObservaciones { position: absolute;	top: 50px;	left: 5px;	width: 950px;	height: 410px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idVerObservaciones{ position: absolute;top:2px; left:10px; width: 160px; height: 25px;}
+#idBotonVerVehiculo{ position: absolute;top:5px; left:200px; width: 120px; height: 25px;}
+
+#idResultadoDeObservaciones{position: absolute;top: 30px;left: 5px;	width: 940px;	height: 260px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idResultadoObservaccionesEscolta{ position: absolute;	top: 9px;	left: 5px;	width: 930px;	height: 43px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idResultadoObservaccionesEjes{ position: absolute;	top: 75px;	left: 5px;	width: 930px;	height: 180px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idResultadoObservacionesComponentes{ position: absolute;	top: 310px;	left: 10px;	width: 930px;	height: 98px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#idDivImagenVeh{ position: absolute;  top: 30px;left: 180px;	width: 140px;	height: 71px;	}
+#idDivImagenVeh2{ position: absolute; top: 47px; left: 325px;	width: 160px;	height: 60px;	}
+#idDivImagenVeh3{ position: absolute; top: 47px;left: 495px;	width: 230px;	height: 60px;	}
+
+#idLabelTituloVehiculoApoyo{ position: absolute;top:5px; left:10px; width: 400px; height: 15px;}
+#idLabelEscolta{ position: absolute;top:30px; left:250px; width: 130px; height: 15px;}
+#idObservacionesEscolta{ position: absolute;top:30px; left:390px; width: 50px; height: 15px;}
+#idLabelApoyoPolicial{ position: absolute;top:30px; left:550px; width: 130px; height: 15px;}  
+#idEsObservacionesPolicial{ position: absolute;top:30px; left:670px; width: 130px; height: 15px;}
+
+#idLabelTituloEjes{ position: absolute;top:5px; left:10px; width: 213px; height: 25px;}
+
+#idLabelNumeroEjes{ position: absolute;top:30px; left:250px; width: 100px; height: 300px;}
+
+#idLabelNumeroEjes2{ position: absolute;top:10px; left:255px; width: 422px; height: 20px;}
+#idMensajeError{position: absolute;top:20px; left:255px; width: 422px; height: 10px;}
+#idObservacionesEjes2{ position: absolute;top:10px; left:680px; width: 80px; height: 15px;}
+#idCal{ position: absolute;top:10px; left:780px; width: 100px; height: 25px;}
+#idObservacionesEjes{ position: absolute;top:30px; left:390px; width: 50px; height: 15px;}
+#idLabelInfoAdicional{ position: absolute;top:30px; left:470px; width: 300px; height: 300px;}
+
+#idLabelTituloVehiculo{ position: absolute;top:5px; left:10px; width: 200px; height: 15px;}
+#idGridMuestraVehiculos {  position: absolute;	top: 28px;	left: 5px;	width: 915px;	height: 130px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idGridMuestraEjes{  position: absolute;	top: 60px;	left: 5px;	width: 915px;	height: 90px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+    
+  
+/* Solicitudes Ingresadas */
+#idLabelCriterio{position: absolute;top:10px; left:10px; width:200px; height: 15px;}
+
+#idFiltroEsNombreEmpresa{position: absolute;top:35px; left:10px; width: 200px; height: 15px;}
+#idFiltroNombreEmpresa{position: absolute;top:35px; left:210px; width: 150px; height: 15px;}
+
+#idFiltroEsEstadoSolicitud1{position: absolute;top:35px; left:10px; width: 200px; height: 15px;}
+#idFiltroEstadoSolicitud1{position: absolute;top:35px; left:200px; width: 160px; height: 20px;}
+
+#idFiltroEsFechaSolicitud {position: absolute;top:60px; left:10px; width: 200px; height: 15px;}
+#idFiltroFechaDestinoDesde{position: absolute;top:60px; left:210px; width: 150px; height: 15px;}
+#idFiltroFechaDestinoHasta{position: absolute;top:60px; left:390px; width: 150px; height: 15px;}
+
+#idFiltroEsEstadoSolicitud{position: absolute;top:85px; left:10px; width: 200px; height: 15px;}
+#idFiltroEstadoSolicitud{position: absolute;top:85px; left:200px; width: 160px; height: 20px;}
+
+#idFiltroEsOrigenFiltro {position: absolute;top:110px; left:10px; width:110px; height: 30px; }
+#idOrigenSubmitFiltro {position: absolute;top:110px; left:120px; width:110px; height: 25px;margin-bottom: 5px;}
+#idUbigeoOrigenFiltro {position: absolute;top:5px; left:5px; width:110px; height: 15px;}
+#resultOrigenFiltro{  position: absolute;top:110px; left:250px; width:120px;   height: 60px;}
+
+#idFiltroEsDestinoFiltro {position: absolute;top: 145px; left:10px; width:110px; height: 30px;}
+#idDestinoSubmitFiltro{position: absolute;top: 145px; left:120px; width:110px; height: 25px;}
+#idUbigeoDestinoFiltro {position: absolute;top:5px; left:5px; width:110px; height: 15px;}
+#resultDestinoFiltro{ position:  absolute; top: 145px; left:250px; width:120px; height: 40px;}
+
+#idSolicitudBuscar{position: absolute;top: 185px; left:10px; width:100px; height: 25px;}
+#idSolicitudBuscar1{position: absolute;top:100px; left:10px; width:100px; height: 25px;}
+
+#idUrlFormDetalleSolicitud{position: absolute;top: 185px; left:120px; width:130px; height: 25px;}
+#idUrlVerDetalleSolicitud3{position: absolute;top: 185px; left: 260px; width:140px; height: 25px;}
+#idUrlEvaluarSolicitud{position: absolute;top:170px; left:120px; width:100px; height: 25px;}
+#idUrlVerDetalleSolicitud1{position: absolute;top:5px; left:210px; width: 140px; height: 25px;}
+#idUrlEvaluarSolicitud1{position: absolute;top:5px; left:60px; width:140px; height: 25px;}
+#idUrlVerDetalleSolicitud2{position: absolute;top:5px; left: 360px; width:140px; height: 25px;}
+#resultadoDeListaSolicitud3333{ position: absolute;top: 460px;	left: 30px;	width: 910px;	height: 180px;	padding: 5px;}
+ #resultadoDeListaSolicitud { position: absolute;	top: 239px;	left: 5px;	width: 960px;	height:265px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+ 
+ #idUrlEvaluarSolicitud3{position: absolute;top:5px; left: 510px; width:140px; height: 25px;}
+#idUrlEvaluarSolicitud4{position: absolute;top:5px; left: 660px; width:140px; height: 25px; }
+
+#resultadoDeListaSolicitud1 { position: absolute; 	top: 10px;	left: 5px;	width: 940px;	height: 235px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+ 
+
+/*inserta*/
+
+#idLabelCodigoUsuarioLogin{ position: absolute;top:29px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioCodigoLogin{ position: absolute;top:24px; left:170px; width: 320px; height: 20px;}
+
+#idLabelCodigoUsuarioLogin2{ position: absolute;top:40px; left:10px;  width: 300px; height: 15px;}
+#idUsuarioCodigoLogin2{ position: absolute;top:40px; left:150px; width: 150px; height: 15px;}
+
+#idLabelUsuarioEjes2{ position: absolute;top:80px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioeje2s{ position: absolute;top:80px; left:150px;  width: 150px; height: 15px;}
+
+#idLabelUsuarioDistancia2{ position: absolute;top:60px; left:10px;  width: 2100px; height: 15px;}
+#idUsuarioDistancia2{ position: absolute;top:60px; left:150px;  width: 150px; height: 15px;}
+
+
+#idLabelUsuarioLogind24{ position: absolute;top:100px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioLogind24{ position: absolute;top:100px; left:150px; width: 400px; height: 15px;}
+#idBuscaEmpresaxCodigo{ position: absolute;top:120px; left:320px; width: 90px; height: 25px;}
+#idLabelMensajeDetalleSolicitud{ position: absolute;top:10px; left:10px;  width: 500px; height: 15px;}
+
+#idLabelUsuarioMercancia4{ position: absolute;top:120px; left:10px;  width: 100px; height: 15px;}
+#idUsuarioApePaterno3{ position: absolute;top:120px; left:150px;  width: 400px; height: 15px;}
+
+#idLabelUsuarioLogind{ position: absolute;top:71px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioLogind{ position: absolute;top:66px; left:170px; width: 320px; height: 20px;}
+
+#idLabelUsuarioPassword {position: absolute;top:113px; left:10px;  width: 300px; height: 15px;}
+#idUsuarioPassword{ position: absolute;top:108px; left:170px; width: 320px; height: 20px;}
+
+#idLabelTipoUsuario{ position: absolute;top:155px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioTipo{ position: absolute;top:150px; left:170px; width: 320px; height: 20px;}
+
+#idLabelTipoUsuario43{ position: absolute;top:133px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioTipo43{ position: absolute;top:133px; left:150px; width: 320px; height: 20px;}
+
+#idLabelUsuarioNombre{ position: absolute;top:197px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioNombre{ position: absolute;top:192px; left:170px; width: 320px; height: 20px;}
+
+#idLabelUsuarioNombre23{ position: absolute;top:174px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioNombre23{ position: absolute;top:174px; left:150px; width: 320px; height: 20px;}
+
+#idLabelUsuarioApePaterno23{ position: absolute;top:214px; left:10px; width: 200px; height: 15px;}
+#idUsuarioApePaterno23{ position: absolute;top:214px; left:150px; width: 320px; height: 20px;}
+
+#idLabelUsuarioApeMaterno23{ position: absolute;top:255px; left:10px; width: 200px; height: 15px;}
+#idUsuarioApeMaterno23{ position: absolute;top:255px; left:150px; width: 320px; height: 20px;}
+
+#idLabelUsuarioArea23{ position: absolute;top:296px; left:10px; width: 200px; height: 15px;}
+#idComboArea23{ position: absolute;top:296px; left:150px; width: 396px; height: 54px;}
+
+
+#idLabelUsuarioDireccion{ position: absolute;top:239px; left:10px; width: 200px; height: 15px;}
+#idUsuarioDireccion{ position: absolute;top:234px; left:170px; width: 320px; height: 20px;}
+
+#idLabelUsuarioApePaterno{ position: absolute;top:281px; left:10px; width: 200px; height: 15px;}
+#idUsuarioApePaterno{ position: absolute;top:276px; left:170px; width: 320px; height: 20px;}
+
+#idLabelUsuarioApeMaterno{ position: absolute;top:323px; left:10px; width: 200px; height: 15px;}
+#idUsuarioApeMaterno{ position: absolute;top:318px; left:170px; width: 320px; height: 20px;}
+
+#idLabelUsuarioArea{ position: absolute;top:365px; left:10px; width: 200px; height: 15px;}
+#idComboArea{ position: absolute;top:360px; left:170px; width: 320px; height: 20px;}
+
+#idEsIntegramentePosterior{ position: absolute;top:410px; left:10px; width: 520px; height: 15px;}
+
+#idLabelCodigoUsuarioLogin42{ position: absolute;top:54px; left:10px;  width: 200px; height: 15px;}
+#idLabelTipMercanDescribe{ position: absolute;top:30px; left:10px;  width: 200px; height: 15px;}
+#idUsuarioCodigoLogin42{ position: absolute;top:54px; left:150px; width: 150px; height: 20px;}
+
+#idUserProviasInternoLogin{ position: absolute;top:80px; left:150px; width: 320px; height: 20px;}
+#LabelidUserProviasInternoLogin{ position: absolute;top:80px; left:10px;  width: 200px; height: 15px;}
+
+
+
+#idTipMercanDescribe{ position: absolute;top:30px; left:130px; width: 255px; height: 15px;}
+#idUsuarioTipo44 {position: absolute;top: 83px;left: 150px;width: 99px;height: 25px;}
+#idLabelUsuarioDepartamento23{ position: absolute;top:360px; left:10px; width: 320px; height: 15px;}
+#idComboDepartamento23{ position: absolute;top:360px; left:150px; width: 320px; height: 20px;}
+
+#idLabelUsuarioImagen23{ position: absolute;top:400px; left:10px; width: 320px; height: 15px;}
+#idUsuarioImagen23{ position: absolute;top:400px; left:150px; width: 320px; height: 20px;}
+
+#idInsert{ position: absolute;top:461px; left:200px; width: 110px; height: 30px;}
+
+
+#idInsert3{ position: absolute;top:400px; left:180px; width: 110px; height: 25px;}
+#idInsert345{ position: absolute;top:300px; left:180px; width: 110px; height: 25px;}
+
+#idSearchUsuarioLoginJsp34 { position: absolute;top: 15px;	left: 242px;	width: 580px;	height: 500px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+
+#idVerPrevisualizacion{ position: absolute;top: 2px;	left: 300px;	width:200px;	height: 23px;	}
+#idSubmitSgt{ position: absolute;top: 430px;	left: 800px;	width:120px;	height: 25px;	}
+#idSubmitSgtChanged{ position: absolute;top: 410px;	left: 810px;	width:120px;	height: 25px;	}
+#idBtnAddRutaIti{ position: absolute;top: 410px;	left: 660px;	width:130px;	height: 25px;	}
+#idSubmitSgt2{ position: absolute;top: 267px;	left: 800px;	width:120px;	height: 25px;	}
+#idSubmitSgt3{ position: absolute;top: 380px;	left: 800px;	width:120px;	height: 25px;	}
+#idSubmitSgt6{ position: absolute;top: 380px;	left: 800px;	width:120px;	height: 25px;	}
+#idSubmitSgt7{ position: absolute;top: 380px;	left: 800px;	width:120px;	height: 25px;	}
+#idLabelMensajeLog{ position: absolute;top: 6px;	left: 61px;	width:226px;	height: 25px;	}
+#idLabelMensajeIE{ position: absolute;top: 30px;	left: 61px;	width:490px;	height: 25px;	}
+#idLabelMensajePDF{ position: absolute;top: 20px;	left: 61px;	width:490px;	height: 25px;	}
+#idLabelVerif{ position: absolute;top:130px; color:blue; left:10px; width: 411px; height: 25px; }
+#idLabelMotivo{ position: absolute;top:70px;  left:650px; width: 300px; height: 20px; }
+#idTextMotivo{ position: absolute;top:100px;  left:650px; width: 300px; height: 70px; }
+#idLabelTi{ position: absolute;top:7px; left:300px; width: 350px; height: 20px; font-size: 14px;}
+#idLabelTiDistri{ position: absolute;top:25px; left:230px; width: 380px; height: 20px; font-size: 14px;}
+#idVerConV{ position: absolute;top:5px; left:650px; width: 90px; height: 25px; background-color: white; text-decoration: underline;color:blue;font-size: 15px; border-style: none;'}
+ 
+
+ /*Configuraciones*/
+
+ #idCalculaLargoBt{position: absolute;top: 133px;	left: 370px; width:80px;	height: 18px;  }
+ #idProLargoTotalConf{ position: absolute;top: 70px;	left: 40px;	width:150px;	height: 25px; font-size: 14px;	}
+ #idLabelAnchoTotalConf{ position: absolute;top: 70px;	left: 70px;	width:150px;	height: 25px; font-size: 14px;font-weight: bold;	}
+ #idProAnchoTotalConf{ position: absolute;top: 70px;	left: 100px;	width:150px;	height: 25px; font-size: 14px;}
+ #idLabelAltoTotalConf{ position: absolute;top: 70px;	left: 130px;	width:150px;	height: 25px;	 font-size: 14px;font-weight: bold;}
+ #idProAltoTotalConf{ position: absolute;top: 70px;	left: 160px;	width:150px;	height: 25px;	font-size: 14px;}
+ #idLabelPesoTotalConf{ position: absolute;top: 70px;	left: 190px;	width:150px;	height: 25px;	font-size: 14px;font-weight: bold;}
+ #idProPesoTotalConf{ position: absolute;top: 70px;	left: 220px;	width:150px;	height: 25px;	font-size: 14px;}
+ #idDimensionesTotales{  position: absolute; top: 30px;	left: 5px;	width: 915px;	height: 30px;	padding: 5px;	font-size: 12px;	font-style: normal;	font-family: Verdana, Geneva, sans-serif;}
+#idDivEnvioDConsulta{position: absolute;
+top: 200px;
+left: 302px;
+width: 920px;
+height: 400px;}
+#idDivEnvioDConsulta2{ position: absolute;	top: 220px;	left:200px;	width: 910px;	height: 400px;}
+#idPrEmitdia{ position: absolute;	top: 20px;	left:210px;	width: 300px;	height: 25px;}
+#rst{ position: absolute;	top: 400px;	left:200px;	width:780px;	height: 500px;}
+
+
+#gbox_idGridSolicitudsParciales{
+	top:15px;
+	}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="doctorxml">	
+<select id="lista_doctor_x_nombre" resultType="doctorAlias" parameterType="int">
+	select * from doctor where nombre like #{nombre}
+</select>	
+
+<select id="lista_doctor_x_espe" resultType="doctorAlias">
+	select * from doctor where idespecialidad= #{id}
+	
+</select>	
+
+
+ <!-- ESTE LISTADO ES DE PRUEBA PARASABER SI SE HA CONECTADO BIEN  -->
+<select id="lista_doctor" resultType="doctorAlias">
+	select * from doctor  
+</select>	
+ 
+</mapper>

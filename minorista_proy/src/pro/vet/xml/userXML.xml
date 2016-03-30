@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="userxml">	
+
+<select id="lista_usuario" resultType="userAlias">
+	select * from users
+</select>	
+<select id="lista_evento" resultType="eventAlias">
+	select * from events
+</select>	
+  <insert id="registra_evento" parameterType="eventAlias">
+ insert into events (text,start_date,end_date,user) values(#{text},#{start_date},#{end_date},#{user})
+  </insert>
+</mapper>

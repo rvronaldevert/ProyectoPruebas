@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="citaXML">	
+<resultMap type="pro.vet.beans.especialidad" id="EspeMap">
+	<id property="idespecialidad" column="idespecialidad"/>
+	<result property="desespecialidad" column="desespecialidad"/>
+</resultMap>	
+<resultMap type="pro.vet.beans.doctor" id="DoctorMap">
+	<id property="iddoctor" column="iddoctor"/>
+	<result property="nombre" column="nombre"/>
+	<association property="especialidadbean" resultMap="EspeMap"></association>
+</resultMap>
+<resultMap type="pro.vet.beans.horario" id="HoraMap">
+	<id property="idhorario" column="idhorario"/>
+	<result property="fecha" column="fecha"/>
+	<result property="horaini" column="horaini"/>
+	<result property="horafin" column="horafin"/>
+	<association property="doctorbean" resultMap="DoctorMap"></association>
+</resultMap>
+<resultMap type="pro.vet.beans.mascota" 
+	id="MasMap">
+	<id property="idmascota" column="idmascota"/>
+	<result property="nombre" column="nombremascota"/>
+</resultMap>
+<resultMap type="pro.vet.beans.cita" id="CitaMap">
+	<id property="idcita" column="idcita"/>
+	<association property="mascotabean" resultMap="MasMap"/>
+	<association property="horariobean" resultMap="HoraMap"/>
+</resultMap>
+<select id="lista_cita" resultMap="CitaMap">
+select c.idcita,h.idhorario,h.fecha,
+m.nombre as nombremascota,d.nombre   
+from cita c inner join horario h
+on c.idhorario=h.idhorario
+inner join doctor d
+on c.iddoctor=d.iddoctor
+inner join mascota m
+on c.idmascota=m.idmascota
+</select> 
+
+ <insert id="registra_cita" parameterType="citaAlias">
+ insert into cita values(#{idespecialidad},#{idmascota},#{idhorario},#{iddoctor})
+  </insert>
+  
+</mapper>
+
+
+
+
+

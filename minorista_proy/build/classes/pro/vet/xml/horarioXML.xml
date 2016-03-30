@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="horarioXML">
+
+<resultMap type="pro.vet.beans.especialidad" id="EspeMap">
+	<id property="idespecialidad" column="idespecialidad"/>
+	<result property="desespecialidad" column="desespecialidad"/>
+</resultMap>
+	
+<resultMap type="pro.vet.beans.doctor" id="DoctorMap">
+	<id property="iddoctor" column="iddoctor"/>
+	<result property="nombre" column="nombre"/>
+	<association property="especialidadbean" resultMap="EspeMap"></association>
+</resultMap>
+
+
+<resultMap type="pro.vet.beans.horario" id="HoraMap">
+	<id property="idhorario" column="idhorario"/>
+	<result property="fecha" column="fecha"/>
+	<result property="horaini" column="horaini"/>
+	<result property="horafin" column="horafin"/>
+	<association property="doctorbean" resultMap="DoctorMap"></association>
+</resultMap>
+
+
+
+<select id="lista_horarior_x_entrefechas" 
+resultMap="HoraMap">	
+	select h.idhorario,h.fecha,d.nombre ,e.desespecialidad 
+	from horario h inner join doctor d
+	on h.iddoctor=d.iddoctor
+	inner join especialidad e
+	on d.idespecialidad=e.idespecialidad
+	where h.fecha between #{f1} and #{f2} and h.iddoctor=#{iddoc}	 
+</select>
+
+<select id="lista_horarior_x_fecha" resultMap="HoraMap">	
+	select h.idhorario,h.fecha,d.nombre ,e.desespecialidad ,d.iddoctor 
+	from horario h inner join doctor d
+	on h.iddoctor=d.iddoctor
+	inner join especialidad e
+	on d.idespecialidad=e.idespecialidad
+	where h.fecha = #{f}
+</select>	
+ 
+ <select id="lista_horarior_x_doctor" resultType="horarioAlias">
+	
+	select * from horario where iddoctor = #{iddoctor}
+</select>	
+
+ <insert id="registra_horario" parameterType="horarioAlias">
+ insert into horario values(#{idhorario},#{idhorario},#{fecha},#{horaini},#{horafin},#{iddoctor})
+  </insert>
+</mapper>

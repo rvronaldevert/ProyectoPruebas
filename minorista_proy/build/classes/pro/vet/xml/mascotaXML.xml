@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="mascotaxml">	
+<select id="lista_mascota_x_nombre" resultType="mascotaAlias">
+	select * from mascota where nombre like #{nom}
+</select>	
+<select id="lista_mascota" resultType="mascotaAlias">
+	select * from mascota
+</select>	
+
+<select id="busca_mascota" resultType="mascotaAlias">
+	select idmascota,nombre,imagen as imagenBytes from mascota where idmascota= #{idmascota}
+</select>	
+<insert id="registra_mascota" parameterType="mascotaAlias">
+	insert into mascota (nombre,imagen) values(#{nombre},#{imagenBytes})
+</insert>	
+ 
+</mapper>

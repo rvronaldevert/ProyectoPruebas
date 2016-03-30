@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeAliases>
+	   <typeAlias alias="userAlias"  type="org.apache.struts.demoapp_struts.model.User" />
+	   <typeAlias alias="eventAlias"  type="org.apache.struts.demoapp_struts.model.Event" />
+		<typeAlias alias="doctorAlias"  type="pro.vet.beans.doctor" />
+		<typeAlias alias="horarioAlias"  type="pro.vet.beans.horario" />
+		<typeAlias alias="citaAlias"  type="pro.vet.beans.cita" />
+		<typeAlias alias="mascotaAlias"  type="pro.vet.beans.mascota" />
+		<typeAlias alias="especialidadAlias"  type="pro.vet.beans.especialidad" />
+	</typeAliases> 
+
+	<environments default="development">
+		<environment id="development">
+		
+			<transactionManager type="JDBC" />			
+			<dataSource type="UNPOOLED">
+						<property name="driver" value="com.mysql.jdbc.Driver" />
+						<property name="url" value="jdbc:mysql://localhost:3306/jobs" />
+						<property name="username" value="root" />
+						<property name="password" value="123" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<!--  Registro de los mappers  -->
+	<mappers>
+		<mapper resource="pro/vet/xml/doctorXML.xml" />	
+		<mapper resource="pro/vet/xml/horarioXML.xml" />
+		<mapper resource="pro/vet/xml/citaXML.xml" />	
+		<mapper resource="pro/vet/xml/mascotaXML.xml" />
+		<mapper resource="pro/vet/xml/especialidadXML.xml" />
+		<mapper resource="pro/vet/xml/userXML.xml" />			
+	</mappers>
+</configuration>
+
